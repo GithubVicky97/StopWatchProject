@@ -40,3 +40,186 @@ body{
 #reset{
     background-color: rgb(218, 80, 80);
 }
+
+/* =============================================================== */
+
+@media screen and (max-width: 835px){
+    
+        #container{
+           color: silver;
+          
+        }
+        .digit{
+            font-size: 90px;
+            font-weight: bold;
+        }
+        .txt{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #btn-container{
+            text-align: center;
+            margin-top: 40px;
+        }
+        .btn{
+            padding: 7px 25px;
+            font-size: 15px;
+            margin: 0px 10px;
+            color: white;
+            border: 0px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #start{
+            background-color: forestgreen;
+        }
+        #stop{
+            background-color: cornflowerblue;
+        }
+        #reset{
+            background-color: rgb(218, 80, 80);
+        }
+    }
+  
+/* =================================================================== */
+
+
+    @media screen and (max-width: 490px){
+        #container{
+            color: silver;
+           
+         }
+         .digit{
+             font-size: 60px;
+             font-weight: bold;
+         }
+         .txt{
+             font-size: 15px;
+             font-weight: bold;
+         }
+         #btn-container{
+             text-align: center;
+             margin-top: 40px;
+         }
+         .btn{
+             padding: 7px 25px;
+             font-size: 10px;
+             margin: 0px 10px;
+             color: white;
+             border: 0px;
+             border-radius: 4px;
+             cursor: pointer;
+         }
+         #start{
+             background-color: forestgreen;
+         }
+         #stop{
+             background-color: cornflowerblue;
+         }
+         #reset{
+             background-color: rgb(218, 80, 80);
+         }
+    }
+
+    /* ==================================================================== */
+
+
+    @media screen and (max-width: 349px){
+        body{
+            background-color: darkslategray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        
+        }
+        #container{
+            color: silver;
+           
+         }
+         #time{
+            padding-left: 27px;
+         }
+         .digit{
+             font-size: 30px;
+             font-weight: bold;
+         }
+         .txt{
+             font-size: 10px;
+             font-weight: bold;
+         }
+         #btn-container{
+             text-align: center;
+             margin-top: 20px;
+         }
+         .btn{
+             padding: 7px 20px;
+             font-size: 8px;
+             margin: 0px 10px;
+             color: white;
+             border: 0px;
+             border-radius: 4px;
+             cursor: pointer;
+         }
+         #start{
+             background-color: forestgreen;
+         }
+         #stop{
+             background-color: cornflowerblue;
+         }
+         #reset{
+             background-color: rgb(218, 80, 80);
+         }
+    }
+
+    /* ========================================================================= */
+
+    
+    @media screen and (max-width: 234px){
+        body{
+            background-color: darkslategray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        
+        }
+        #container{
+            color: silver;
+           
+         }
+         #time{
+            padding-left: 27px;
+            display:inline-block;
+         }
+         .digit{
+             font-size: 20px;
+             font-weight: bold;
+         }
+         .txt{
+             font-size: 5px;
+             font-weight: bold;
+         }
+         #btn-container{
+             text-align: center;
+             margin-top: 15px;
+         }
+         .btn{
+             padding: 7px 20px;
+             font-size: 8px;
+             margin: 0px 10px;
+             color: white;
+             border: 0px;
+             border-radius: 4px;
+             cursor: pointer;
+         }
+         #start{
+             background-color: forestgreen;
+         }
+         #stop{
+             background-color: cornflowerblue;
+         }
+         #reset{
+             background-color: rgb(218, 80, 80);
+         }
+    }
